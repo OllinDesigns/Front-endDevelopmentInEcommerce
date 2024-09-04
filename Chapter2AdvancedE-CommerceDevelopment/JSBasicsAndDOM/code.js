@@ -20,3 +20,8 @@ if (age >= 18) {
   console.log('Minor');
 }
 
+function greet(name) {
+    return `Hello, ${name}!`;
+  }
+// Arrow function
+  const greet = (name) => `Hello, ${name}!`;

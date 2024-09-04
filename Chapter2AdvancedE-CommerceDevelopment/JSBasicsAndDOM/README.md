@@ -17,11 +17,7 @@ Basic types include string, number, boolean, object, array, and null.
 Utilize if, else, switch, for, while, and do-while loops
 
 - Functions:
-Functions: Define reusable blocks of code with function keyword or arrow functions.
-function greet(name) {
-  return `Hello, ${name}!`;
-}
+Define reusable blocks of code with function keyword or arrow functions.
 
-const greet = (name) => `Hello, ${name}!`;
 
 
