@@ -1,0 +1,1 @@
+**Semantic HTML** and its role in creating accessible and SEO-friendly e-commerce websites.
