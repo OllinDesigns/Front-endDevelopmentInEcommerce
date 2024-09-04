@@ -12,3 +12,11 @@ let colors = ['red', 'blue', 'green']; // Array
 //Operators
 let result = 5 + 3; // 8
 let isEqual = (5 === 5); // true
+
+// Control Structures
+if (age >= 18) {
+  console.log('Adult');
+} else {
+  console.log('Minor');
+}
+
