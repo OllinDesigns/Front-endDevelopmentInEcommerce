@@ -10,3 +10,6 @@ Create a new React app using Create React App.
 ```bash
 npx create-react-app ecommerce-product-list
 cd ecommerce-product-list
+
+Create Product Data:
+Inside the src folder, create a new file called products.js to hold your product data.
