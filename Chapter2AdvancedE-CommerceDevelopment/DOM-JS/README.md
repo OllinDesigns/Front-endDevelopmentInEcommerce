@@ -9,6 +9,16 @@
 
 - Dynamic Product Listings:
     - Filtering and Sorting: Implement dynamic filters and sorting options to update product listings based on user selections without reloading the page.
+- Interactive Cart Updates:
+   - Add/Remove Items: Update the shopping cart in real-time as users add or remove items. Use JavaScript to dynamically update cart totals and item counts.
+- Real-Time Price Updates:
+    - Price Calculations: Use JavaScript to recalculate prices in real-time based on user inputs, such as selecting different options or applying discount codes.
+- Product Customization:
+    - Dynamic Options: Update available product options (e.g., colors, sizes) dynamically based on user selections or inputs.
+- User Feedback:
+    - Live Validation: Provide real-time feedback for form inputs, such as email validation or password strength checks.
+
+
 
 ## Key Concepts:
 - Event Bubbling: Understand how events propagate through the DOM tree and how to manage them.
