@@ -14,3 +14,19 @@ cd ecommerce-product-list
 
 - Create Product Data:
 Inside the src folder, create a new file called products.js to hold your product data.
+
+- Create a Product component:
+Create a new file called Product.js in the src folder.
+
+- Create the Main Component:
+Modify App.js to display the product list and manage the cart state. src/App.js
+
+- Add Basic CSS:
+Create a styles.css file in the src folder for basic styling.
+
+- Run the App:
+Start the development server to see your eCommerce product listing in action.
+
+```bash
+npm start 
+```
