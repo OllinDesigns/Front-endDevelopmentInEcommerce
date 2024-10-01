@@ -77,3 +77,5 @@ The goal of this exercise is to guide students through transforming the previous
 
 #### Challenge:
 - Once the guidance is provided, students are tasked with transforming their own product card into a fully functional React component using the steps above.
+
+Have fun!
