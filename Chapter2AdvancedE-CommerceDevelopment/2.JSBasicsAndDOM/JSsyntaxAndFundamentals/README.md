@@ -1,7 +1,6 @@
-# JavaScript Basics and DOM Manipulation 
-Overview of JavaScript syntax and fundamentals
+ # Overview of JavaScript syntax and fundamentals
 
-[Check the code](https://github.com/OllinDesigns/WebTechNextU/blob/main/Chapter2AdvancedE-CommerceDevelopment/JSBasicsAndDOM/code.js)
+[Check the code](https://github.com/OllinDesigns/WebTechNextU/blob/dev2/Chapter2AdvancedE-CommerceDevelopment/2.JSBasicsAndDOM/JSsyntaxAndFundamentals/code.js)
 
 
 - Variables:
