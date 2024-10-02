@@ -1,4 +1,6 @@
-For the final project, you're aiming to have students integrate previous exercises into a functional e-commerce app. Let's outline the requirements step by step:
+# Final Project
+
+<!-- For the final project, you're aiming to have students integrate previous exercises into a functional e-commerce app. Let's outline the requirements step by step: -->
 
 ### Project Overview:
 - **Objective**: Build a small e-commerce app displaying 4 product cards inside a product gallery and integrate a shopping cart where products can be added.
