@@ -1,4 +1,4 @@
-# Styling a Responsive Product Grid
+# Optional Exercise 1: Styling a Responsive Product Grid
 
 ## Exercise Overview
 
