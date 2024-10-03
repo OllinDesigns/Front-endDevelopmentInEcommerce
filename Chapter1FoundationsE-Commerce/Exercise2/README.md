@@ -1,4 +1,4 @@
-### **Exercise: Styling the Product Card with CSS (Using Flexbox)**
+### **Exercise 2: Styling the Product Card with CSS (Using Flexbox)**
 
 In this exercise, you will take the **semantic HTML structure** of the product card you created earlier and apply CSS to style it. You will use **Flexbox** to lay out the elements, making the product card visually appealing and responsive.
 

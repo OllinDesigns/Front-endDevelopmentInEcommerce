@@ -72,7 +72,3 @@
    );
    ```
 
----
-
-### Next Steps:
-Before generating the full code, let me know if you would like to focus on specific functionalities or guide the students through certain challenges.
