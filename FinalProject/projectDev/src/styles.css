@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .app {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  Great to hear that the app is working! To center the components and content, you can update the layout in your styles.css file. I can provide a general approach without needing your specific styles.css, and it should work as long as there are no conflicting styles.
+CSS Layout Fix: Centering Content
+
+You can center the entire content of the page by using Flexbox on the container (app-container) and ensuring that both the main content and the sidebar are centered within their respective sections.
+
+Here’s how you can adjust the layout using CSS:
+Updated styles.css:
+
+css
+
+/* Ensures the app container takes full width and height of the viewport */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Full height of the viewport */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Centers the title */
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+  
+  /* Product Gallery Styling */
+  .product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+  }
+  
+  .product-gallery-section {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure it takes full width */
+  }
+  .product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+  }
+  
+  /* .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  } */
+
+  .product-card img {
+    width: 100%;
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 250px; /* Set a max width to keep the images from getting too large */
+    max-height: 250px; /* Ensures consistent height */
+    object-fit: cover; /* Ensures the image fills the area while maintaining aspect ratio */
+  }
+  
+  
+  .product-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .product-info h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .product-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .product-info button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-info button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Shopping Cart Styling */
+  .shopping-cart {
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  /* Styling the shopping cart section */
+.shopping-cart-section {
+    margin-top: 20px;
+    width: 100%; /* Ensure it takes full width */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .shopping-cart h2 {
+    text-align: center;
+  }
+  
+  .shopping-cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shopping-cart li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
