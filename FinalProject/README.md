@@ -29,7 +29,7 @@
 
 ---
 
-### Code Guidance (without revealing full solution):
+### Code Guidance 
 1. **ProductCard Component** (in React):
    ```jsx
    const ProductCard = ({ product, addToCart }) => (
