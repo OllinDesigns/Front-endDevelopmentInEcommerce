@@ -4,7 +4,7 @@
 **E-Commerce Web Development: From Fundamentals to Advanced Techniques**
 
 #### **Instructor:**
-[Your Name]
+Edgar Garcia
 
 #### **Course Dates and Schedule:**
 - **October 10th, 14th, 17th**
