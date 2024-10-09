@@ -1,81 +1,72 @@
-### Hands-on Exercise: Transforming the Product Card into a React Component
+# Exercise 3: Transforming the Product Card into a React Component
 
-#### Objective:
-The goal of this exercise is to guide students through transforming the previously created **Product Card** (structured with Semantic HTML and styled with CSS) into a reusable **React component**. While the focus will be on React, students with stronger knowledge in **Angular** or **Vue** are encouraged to implement the component in those frameworks if they prefer.
+### Objective
+The goal of this exercise is to guide you through transforming the previously created **Product Card** (structured with Semantic HTML and styled with CSS) into a reusable **React component**. If you are more comfortable with **Angular** or **Vue**, feel free to implement the component in those frameworks instead.
 
-#### Steps:
-1. **Break Down the HTML**:
-   - Begin by reviewing the static HTML of your product card.
-   - Identify different parts (image, title, description, price, etc.) that will map to different elements within the React component.
+### Steps
 
-2. **Create a New React Component**:
-   - Use **`create-react-app`** or another React setup to get started (if needed).
-   - Create a new file named `ProductCard.js` for the component.
+- **Break Down the HTML**:
+  - Review the static HTML of your product card.
+  - Identify different parts (image, title, description, price) that will correspond to elements in the React component.
 
-   ```jsx
-   import React from 'react';
-   import './ProductCard.css'; // Import the CSS file you created earlier
+- **Create a New React Component**:
+  - Use **`create-react-app`** or your preferred React setup.
+  - Create a new file named `ProductCard.js`.
 
-   const ProductCard = () => {
-     return (
-       <div className="product-card">
-         <img src="path_to_image" alt="Product Image" className="product-image" />
-         <h2 className="product-title">Product Title</h2>
-         <p className="product-description">Product description goes here.</p>
-         <p className="product-price">$XX.XX</p>
-       </div>
-     );
-   };
+    ```jsx
+    import React from 'react';
+    import './ProductCard.css'; // Link your CSS file
 
-   export default ProductCard;
-   ```
+    const ProductCard = () => {
+      return (
+        <div className="product-card">
+          {/* Add your elements here */}
+        </div>
+      );
+    };
 
-3. **Link the CSS**:
-   - Use the CSS created in the previous exercise to style the component. Make sure to link the stylesheet in your React app.
+    export default ProductCard;
+    ```
 
-4. **Refactor for Reusability**:
-   - Refactor the component to accept **props** so it can display different products.
+- **Link the CSS**:
+  - Ensure your previously created CSS styles are applied to the new component by importing the stylesheet.
 
-   ```jsx
-   const ProductCard = ({ image, title, description, price }) => {
-     return (
-       <div className="product-card">
-         <img src={image} alt={title} className="product-image" />
-         <h2 className="product-title">{title}</h2>
-         <p className="product-description">{description}</p>
-         <p className="product-price">{price}</p>
-       </div>
-     );
-   };
-   ```
+- **Refactor for Reusability**:
+  - Modify the component to accept **props** for dynamic data input, such as image, title, description, and price.
 
-5. **Render the Component**:
-   - In your **App.js** or main component file, render the `ProductCard` component and pass in different product data using props.
+    ```jsx
+    const ProductCard = ({ image, title, description, price }) => {
+      return (
+        <div className="product-card">
+          {/* Use props to display content */}
+        </div>
+      );
+    };
+    ```
 
-   ```jsx
-   import ProductCard from './ProductCard';
+- **Render the Component**:
+  - In your main component file (like **App.js**), render the `ProductCard` component and pass in product data using props.
 
-   function App() {
-     return (
-       <div>
-         <ProductCard 
-           image="url_to_image"
-           title="Sample Product"
-           description="This is a sample product description."
-           price="$20.00"
-         />
-       </div>
-     );
-   }
+    ```jsx
+    import ProductCard from './ProductCard';
 
-   export default App;
-   ```
+    function App() {
+      return (
+        <div>
+          {/* Render your ProductCard with props */}
+        </div>
+      );
+    }
 
-6. **Alternative Frameworks (Optional)**:
-   - If you prefer **Angular** or **Vue**, feel free to build your product card component in your preferred framework. 
-   - The key concepts are the same: break the product card into a component, structure it using reusable logic, and pass in dynamic data.
+    export default App;
+    ```
 
-#### Challenge:
-- Once the guidance is provided, students are tasked with transforming their own product card into a fully functional React component using the steps above.
+- **Alternative Frameworks (Optional)**:
+  - If you prefer **Angular** or **Vue**, create your product card component in your chosen framework. 
+  - The same principles apply: structure it for reusability and pass dynamic data.
+
+### Challenge
+Once you understand the guidance, your task is to transform your own product card into a fully functional React component following the steps outlined above.
 
 Have fun!
+

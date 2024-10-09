@@ -1,4 +1,4 @@
-### Exercise 4: Building a New Reusable Component
+# Exercise 4: Building a New Reusable Component
 
 **Objective:**  
 In this exercise, students will create **one new reusable component**: either a **Product Gallery** or a **Shopping Cart**. This will be integrated with the previously developed product card component and designed with a focus on **responsiveness** and **accessibility**.
