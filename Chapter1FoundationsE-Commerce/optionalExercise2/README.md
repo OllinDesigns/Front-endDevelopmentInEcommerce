@@ -1,4 +1,4 @@
-# Optional Exercise 2: Designing an Accessible Checkout Form
+## Optional Exercise 2: Designing an Accessible Checkout Form
 
 ### Overview
 

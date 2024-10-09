@@ -1,6 +1,6 @@
-# Optional Exercise 1: Styling a Responsive Product Grid
+## Optional Exercise 1: Styling a Responsive Product Grid
 
-## Exercise Overview
+### Exercise Overview
 
 In this exercise, you will create a **responsive product grid** using HTML and CSS. The focus is on using **CSS Grid** to display multiple product cards, with each card containing an image, product name, price, and an "Add to Cart" button. The grid will be **responsive**, adjusting the number of columns based on the screen size. You will also implement some basic hover effects to enhance the user experience.
 

@@ -1,4 +1,4 @@
-### **Exercise 1: Creating a Product Card with Semantic HTML**
+## **Exercise 1: Creating a Product Card with Semantic HTML**
 
 In this exercise, you will create the basic **semantic HTML structure** for a product card. This card will later be styled with CSS and eventually turned into a ProductCard component.
 
