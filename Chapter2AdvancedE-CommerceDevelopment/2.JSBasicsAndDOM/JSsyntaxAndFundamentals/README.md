@@ -1,13 +1,14 @@
  # Overview of JavaScript syntax and fundamentals
 
-[Check the code](https://github.com/OllinDesigns/WebTechNextU/blob/dev2/Chapter2AdvancedE-CommerceDevelopment/2.JSBasicsAndDOM/JSsyntaxAndFundamentals/code.js)
+[Check the code](https://github.com/OllinDesigns/Front-endDevelopmentInEcommerce/blob/main/Chapter2AdvancedE-CommerceDevelopment/2.JSBasicsAndDOM/JSsyntaxAndFundamentals/code.js)
 
 
 - Variables:
 Declare variables using var, let, or const.
 
 - Data Types:
-Basic types include string, number, boolean, object, array, and null.
+Primitive data types include string, number, boolean, null, undefined and symbol.
+Reference data types include array, function and object.
 
 - Operators:
  Use arithmetic (+, -, *, /), comparison (==, ===, >, <), and logical (&&, ||, !) operators.

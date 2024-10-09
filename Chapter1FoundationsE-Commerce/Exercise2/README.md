@@ -1,89 +1,69 @@
-## **Exercise 2: Styling the Product Card with CSS (Using Flexbox)**
+# **Exercise 2: Styling the Product Card with CSS (Using Flexbox)**
 
-In this exercise, you will take the **semantic HTML structure** of the product card you created earlier and apply CSS to style it. You will use **Flexbox** to lay out the elements, making the product card visually appealing and responsive.
+In this exercise, you will take the **semantic HTML structure** of the product card you created earlier and apply **CSS styling** using **Flexbox**. The aim is to create a visually appealing and responsive product card.
 
-#### Requirements:
-- Style the **product card** using CSS.
-- Use **Flexbox** to align and position elements like the image, product name, price, and button.
-- Make the product card **responsive** so that it adapts to different screen sizes.
-- Add basic styling for the **button** to make it stand out as a call-to-action.
+### **Objectives:**
+- Use **Flexbox** to align and position elements such as the product image, name, price, and button.
+- Make the product card **responsive** to adapt to different screen sizes.
+- Style the product card to make it **aesthetically appealing** and improve user experience.
 
-#### Steps:
-1. Create a new CSS file and link it to your HTML file.
-2. Use Flexbox to:
-   - Align the image and product information horizontally or vertically, depending on your design.
-   - Ensure the layout remains responsive on smaller screens (use media queries if necessary).
-3. Style the **product card** with colors, padding, margins, and font sizes to make it visually appealing.
-4. Style the **button** to be more prominent with background colors, padding, and hover effects.
+### **Instructions:**
 
-#### Example Flexbox Layout:
+1. **Link a CSS file** to your HTML.
+2. Use **Flexbox** to:
+   - Lay out the image and product details horizontally or vertically.
+   - Make sure the layout adapts to different screen sizes (consider using media queries).
+3. Add **styling** to the product card:
+   - Use colors, font sizes, margins, and padding for better presentation.
+   - Ensure that the button stands out as a **call-to-action**.
 
-- Use Flexbox to align the image and product details side by side or stack them vertically on smaller screens.
-- Apply Flexbox to the card container and button to ensure they are properly aligned.
+### **Key Considerations:**
 
-#### Example CSS:
+- **Flexbox Layout:** You will use Flexbox to control the layout and alignment. For example, consider how you’ll position the image relative to the product information (side-by-side on larger screens, stacked on smaller screens).
+  
+- **Responsiveness:** The layout should adjust on smaller screens. You can achieve this using **media queries**.
+
+### **CSS Clues:**
+
+- Create a flexible layout using `display: flex` for the card container.
+- Use properties like `justify-content` and `align-items` to control alignment.
+- Think about hover effects for the button to improve interactivity.
 
 ```css
-article {
+/* Example clue */
+.product-card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; /* Consider changing this for wider screens */
   padding: 20px;
-  border: 1px solid #ddd;
   border-radius: 8px;
-  max-width: 300px;
-  margin: auto;
-}
-
-figure {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin: 10px 0;
-}
-
-p {
-  font-size: 1.2rem;
-  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 button {
-  background-color: #007bff;
+  padding: 10px;
+  background-color: #28a745;
   color: white;
-  padding: 10px 20px;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #218838; /* Interactive hover effect */
 }
 ```
 
-#### Optional: Responsive Design
-
-You can make the card responsive using media queries to adjust the layout for smaller screens.
+### **Additional Challenge:**
+- Make the product card fully **responsive**. Use **media queries** to change the layout on different screen sizes.
 
 ```css
+/* Example media query */
 @media (max-width: 600px) {
-  article {
-    flex-direction: column;
+  .product-card {
+    flex-direction: column; /* Stack elements on smaller screens */
   }
 }
 ```
 
 ### **Deliverable:**
-By the end of this exercise, students should have a fully styled product card using Flexbox, with a responsive layout that works on different screen sizes.
+By the end of this exercise, you should have a fully styled product card that uses Flexbox to align elements, with a responsive design that works on different screen sizes.
+

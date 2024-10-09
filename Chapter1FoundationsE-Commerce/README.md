@@ -13,7 +13,7 @@
 - **Learning Outcomes**: 
   - By the end, you’ll be equipped to build, style, and add interactivity to an e-commerce site using modern front-end techniques.
 
-### **Introduction to E-Commerce Development (11:00 am - 11:15 am)**
+### **Introduction to E-Commerce Development (11:00 am - 11:30 am)**
 
 - **E-Commerce Landscape**: 
   - Overview of how the e-commerce industry operates and why a strong website is crucial for success.
