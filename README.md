@@ -1,4 +1,4 @@
-### **README: E-Commerce Web Development Course**
+## E-Commerce Web Development Course**
 
 #### **Course Title:**
 **E-Commerce Web Development: From Fundamentals to Advanced Techniques**
