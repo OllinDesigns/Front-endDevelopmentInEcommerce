@@ -22,7 +22,7 @@
 
 ## Key Concepts:
 - Event Bubbling: Understand how events propagate through the DOM tree and how to manage them.
-- ynamic Content: Modify and update content dynamically based on user actions or other conditions.
+- Dynamic Content: Modify and update content dynamically based on user actions or other conditions.
 - Performance: Optimize DOM manipulation for better performance by minimizing reflows and repaints.
 
 By mastering these basics and DOM manipulation techniques, you'll be able to create interactive and dynamic web pages, providing a better user experience.
